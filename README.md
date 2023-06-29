@@ -8,6 +8,7 @@
 
 
 # 伪静态
+```
 #---------------a域名_答案查询伪静态---------------
 #停止访问
 if ($http_cookie !~* "*[脱敏]") {
@@ -55,3 +56,4 @@ location /reviews/ {internal;}
 #rewrite /(\w+)_(\w+) /index.php?book=$1&answer=$2 last;
 #主页dancanshu伪静态
 #rewrite /i/(\w+) /index.php?&answer=$1 last;
+```
