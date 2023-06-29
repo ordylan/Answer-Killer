@@ -1,0 +1,15 @@
+{
+    "name": "AK作业答案互助平台",
+    "short_name": "AK互助",
+    "icons": [{
+      "src": "favicon.ico",
+      "sizes": "256x256",
+      "type": "image/vnd.microsoft.icon"
+    }],
+    "description": "这里是18班的AK作业答案互助平台,互助学习上AK!橙宝们,一起来布鲁莱斯城堡玩耍吧!",
+    "display": "standalone",
+    "background_color": "#E6E6E6",
+    "theme_color": "#E6E6E6",
+    "start_url": "/",
+    "scope": "/"
+}
